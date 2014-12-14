@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 8b5075656c6766245963999a44f34f3a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: boutons
+    100002: Camera
+    100004: Camera.001
+    100006: //RootNode
+    100008: canape.000
+    100010: canape.000_MeshPart0
+    100012: canape.000_MeshPart1
+    100014: canape.000_MeshPart10
+    100016: canape.000_MeshPart11
+    100018: canape.000_MeshPart2
+    100020: canape.000_MeshPart3
+    100022: canape.000_MeshPart4
+    100024: canape.000_MeshPart5
+    100026: canape.000_MeshPart6
+    100028: canape.000_MeshPart7
+    100030: canape.000_MeshPart8
+    100032: canape.000_MeshPart9
+    100034: canape.001
+    100036: canape.002
+    100038: canape.003
+    100040: canape.004
+    100042: coussin 1
+    100044: coussin 2
+    100046: Empty
+    100048: lampe 1
+    100050: lampe 1.001
+    100052: lampe 1.002
+    100054: lampe 1.003
+    100056: roue.000
+    100058: roue.001
+    100060: roue.002
+    100062: roue.003
+    100064: sol
+    400000: boutons
+    400002: Camera
+    400004: Camera.001
+    400006: //RootNode
+    400008: canape.000
+    400010: canape.000_MeshPart0
+    400012: canape.000_MeshPart1
+    400014: canape.000_MeshPart10
+    400016: canape.000_MeshPart11
+    400018: canape.000_MeshPart2
+    400020: canape.000_MeshPart3
+    400022: canape.000_MeshPart4
+    400024: canape.000_MeshPart5
+    400026: canape.000_MeshPart6
+    400028: canape.000_MeshPart7
+    400030: canape.000_MeshPart8
+    400032: canape.000_MeshPart9
+    400034: canape.001
+    400036: canape.002
+    400038: canape.003
+    400040: canape.004
+    400042: coussin 1
+    400044: coussin 2
+    400046: Empty
+    400048: lampe 1
+    400050: lampe 1.001
+    400052: lampe 1.002
+    400054: lampe 1.003
+    400056: roue.000
+    400058: roue.001
+    400060: roue.002
+    400062: roue.003
+    400064: sol
+    2300000: boutons
+    2300002: canape.000_MeshPart0
+    2300004: canape.000_MeshPart1
+    2300006: canape.000_MeshPart10
+    2300008: canape.000_MeshPart11
+    2300010: canape.000_MeshPart2
+    2300012: canape.000_MeshPart3
+    2300014: canape.000_MeshPart4
+    2300016: canape.000_MeshPart5
+    2300018: canape.000_MeshPart6
+    2300020: canape.000_MeshPart7
+    2300022: canape.000_MeshPart8
+    2300024: canape.000_MeshPart9
+    2300026: canape.001
+    2300028: canape.002
+    2300030: canape.003
+    2300032: canape.004
+    2300034: coussin 1
+    2300036: coussin 2
+    2300038: lampe 1
+    2300040: lampe 1.001
+    2300042: lampe 1.002
+    2300044: lampe 1.003
+    2300046: roue.000
+    2300048: roue.001
+    2300050: roue.002
+    2300052: roue.003
+    2300054: sol
+    3300000: boutons
+    3300002: canape.000_MeshPart0
+    3300004: canape.000_MeshPart1
+    3300006: canape.000_MeshPart10
+    3300008: canape.000_MeshPart11
+    3300010: canape.000_MeshPart2
+    3300012: canape.000_MeshPart3
+    3300014: canape.000_MeshPart4
+    3300016: canape.000_MeshPart5
+    3300018: canape.000_MeshPart6
+    3300020: canape.000_MeshPart7
+    3300022: canape.000_MeshPart8
+    3300024: canape.000_MeshPart9
+    3300026: canape.001
+    3300028: canape.002
+    3300030: canape.003
+    3300032: canape.004
+    3300034: coussin 1
+    3300036: coussin 2
+    3300038: lampe 1
+    3300040: lampe 1.001
+    3300042: lampe 1.002
+    3300044: lampe 1.003
+    3300046: roue.000
+    3300048: roue.001
+    3300050: roue.002
+    3300052: roue.003
+    3300054: sol
+    4300000: lampe 1.003
+    4300002: lampe 1.002
+    4300004: lampe 1.001
+    4300006: lampe 1
+    4300008: sol
+    4300010: boutons
+    4300012: roue.003
+    4300014: roue.002
+    4300016: roue.000
+    4300018: coussin 2
+    4300020: roue.001
+    4300022: canape.001
+    4300024: canape.004
+    4300026: canape.003
+    4300028: canape.000_MeshPart0
+    4300030: canape.000_MeshPart1
+    4300032: canape.000_MeshPart2
+    4300034: canape.000_MeshPart3
+    4300036: canape.000_MeshPart4
+    4300038: canape.000_MeshPart5
+    4300040: canape.000_MeshPart6
+    4300042: canape.000_MeshPart7
+    4300044: canape.000_MeshPart8
+    4300046: canape.000_MeshPart9
+    4300048: canape.000_MeshPart10
+    4300050: canape.000_MeshPart11
+    4300052: canape.002
+    7400000: Empty|pourtour fenetre .033
+    7400002: Empty|pourtour fenetre .034
+    7400004: Empty|pourtour fenetre .035
+    7400006: Empty|pourtour fenetre .036
+    7400008: Empty|pourtour fenetre .037
+    7400010: Empty|pourtour fenetre .038
+    7400012: Empty|pourtour fenetre .039
+    7400014: Empty|pourtour fenetre .040
+    7400016: Camera.001|pourtour fenetre .033
+    7400018: Camera.001|pourtour fenetre .034
+    7400020: Camera.001|pourtour fenetre .035
+    7400022: Camera.001|pourtour fenetre .036
+    7400024: Camera.001|pourtour fenetre .037
+    7400026: Camera.001|pourtour fenetre .038
+    7400028: Camera.001|pourtour fenetre .039
+    7400030: Camera.001|pourtour fenetre .040
+    7400032: lampe 1.003|pourtour fenetre .033
+    7400034: lampe 1.003|pourtour fenetre .034
+    7400036: lampe 1.003|pourtour fenetre .035
+    7400038: lampe 1.003|pourtour fenetre .036
+    7400040: lampe 1.003|pourtour fenetre .037
+    7400042: lampe 1.003|pourtour fenetre .038
+    7400044: lampe 1.003|pourtour fenetre .039
+    7400046: lampe 1.003|pourtour fenetre .040
+    7400048: lampe 1.002|pourtour fenetre .033
+    7400050: lampe 1.002|pourtour fenetre .034
+    7400052: lampe 1.002|pourtour fenetre .035
+    7400054: lampe 1.002|pourtour fenetre .036
+    7400056: lampe 1.002|pourtour fenetre .037
+    7400058: lampe 1.002|pourtour fenetre .038
+    7400060: lampe 1.002|pourtour fenetre .039
+    7400062: lampe 1.002|pourtour fenetre .040
+    7400064: lampe 1.001|pourtour fenetre .033
+    7400066: lampe 1.001|pourtour fenetre .034
+    7400068: lampe 1.001|pourtour fenetre .035
+    7400070: lampe 1.001|pourtour fenetre .036
+    7400072: lampe 1.001|pourtour fenetre .037
+    7400074: lampe 1.001|pourtour fenetre .038
+    7400076: lampe 1.001|pourtour fenetre .039
+    7400078: lampe 1.001|pourtour fenetre .040
+    7400080: lampe 1|pourtour fenetre .033
+    7400082: lampe 1|pourtour fenetre .034
+    7400084: lampe 1|pourtour fenetre .035
+    7400086: lampe 1|pourtour fenetre .036
+    7400088: lampe 1|pourtour fenetre .037
+    7400090: lampe 1|pourtour fenetre .038
+    7400092: lampe 1|pourtour fenetre .039
+    7400094: lampe 1|pourtour fenetre .040
+    7400096: Camera|pourtour fenetre .033
+    7400098: Camera|pourtour fenetre .034
+    7400100: Camera|pourtour fenetre .035
+    7400102: Camera|pourtour fenetre .036
+    7400104: Camera|pourtour fenetre .037
+    7400106: Camera|pourtour fenetre .038
+    7400108: Camera|pourtour fenetre .039
+    7400110: Camera|pourtour fenetre .040
+    7400112: sol|pourtour fenetre .033
+    7400114: sol|pourtour fenetre .034
+    7400116: sol|pourtour fenetre .035
+    7400118: sol|pourtour fenetre .036
+    7400120: sol|pourtour fenetre .037
+    7400122: sol|pourtour fenetre .038
+    7400124: sol|pourtour fenetre .039
+    7400126: sol|pourtour fenetre .040
+    7400128: boutons|pourtour fenetre .033
+    7400130: boutons|pourtour fenetre .034
+    7400132: boutons|pourtour fenetre .035
+    7400134: boutons|pourtour fenetre .036
+    7400136: boutons|pourtour fenetre .037
+    7400138: boutons|pourtour fenetre .038
+    7400140: boutons|pourtour fenetre .039
+    7400142: boutons|pourtour fenetre .040
+    7400144: roue.003|pourtour fenetre .033
+    7400146: roue.003|pourtour fenetre .034
+    7400148: roue.003|pourtour fenetre .035
+    7400150: roue.003|pourtour fenetre .036
+    7400152: roue.003|pourtour fenetre .037
+    7400154: roue.003|pourtour fenetre .038
+    7400156: roue.003|pourtour fenetre .039
+    7400158: roue.003|pourtour fenetre .040
+    7400160: roue.002|pourtour fenetre .033
+    7400162: roue.002|pourtour fenetre .034
+    7400164: roue.002|pourtour fenetre .035
+    7400166: roue.002|pourtour fenetre .036
+    7400168: roue.002|pourtour fenetre .037
+    7400170: roue.002|pourtour fenetre .038
+    7400172: roue.002|pourtour fenetre .039
+    7400174: roue.002|pourtour fenetre .040
+    7400176: roue.000|pourtour fenetre .033
+    7400178: roue.000|pourtour fenetre .034
+    7400180: roue.000|pourtour fenetre .035
+    7400182: roue.000|pourtour fenetre .036
+    7400184: roue.000|pourtour fenetre .037
+    7400186: roue.000|pourtour fenetre .038
+    7400188: roue.000|pourtour fenetre .039
+    7400190: roue.000|pourtour fenetre .040
+    7400192: coussin 2|pourtour fenetre .033
+    7400194: coussin 2|pourtour fenetre .034
+    7400196: coussin 2|pourtour fenetre .035
+    7400198: coussin 2|pourtour fenetre .036
+    7400200: coussin 2|pourtour fenetre .037
+    7400202: coussin 2|pourtour fenetre .038
+    7400204: coussin 2|pourtour fenetre .039
+    7400206: coussin 2|pourtour fenetre .040
+    7400208: coussin 1|pourtour fenetre .033
+    7400210: coussin 1|pourtour fenetre .034
+    7400212: coussin 1|pourtour fenetre .035
+    7400214: coussin 1|pourtour fenetre .036
+    7400216: coussin 1|pourtour fenetre .037
+    7400218: coussin 1|pourtour fenetre .038
+    7400220: coussin 1|pourtour fenetre .039
+    7400222: coussin 1|pourtour fenetre .040
+    7400224: roue.001|pourtour fenetre .033
+    7400226: roue.001|pourtour fenetre .034
+    7400228: roue.001|pourtour fenetre .035
+    7400230: roue.001|pourtour fenetre .036
+    7400232: roue.001|pourtour fenetre .037
+    7400234: roue.001|pourtour fenetre .038
+    7400236: roue.001|pourtour fenetre .039
+    7400238: roue.001|pourtour fenetre .040
+    7400240: canape.001|pourtour fenetre .033
+    7400242: canape.001|pourtour fenetre .034
+    7400244: canape.001|pourtour fenetre .035
+    7400246: canape.001|pourtour fenetre .036
+    7400248: canape.001|pourtour fenetre .037
+    7400250: canape.001|pourtour fenetre .038
+    7400252: canape.001|pourtour fenetre .039
+    7400254: canape.001|pourtour fenetre .040
+    7400256: canape.004|pourtour fenetre .033
+    7400258: canape.004|pourtour fenetre .034
+    7400260: canape.004|pourtour fenetre .035
+    7400262: canape.004|pourtour fenetre .036
+    7400264: canape.004|pourtour fenetre .037
+    7400266: canape.004|pourtour fenetre .038
+    7400268: canape.004|pourtour fenetre .039
+    7400270: canape.004|pourtour fenetre .040
+    7400272: canape.003|pourtour fenetre .033
+    7400274: canape.003|pourtour fenetre .034
+    7400276: canape.003|pourtour fenetre .035
+    7400278: canape.003|pourtour fenetre .036
+    7400280: canape.003|pourtour fenetre .037
+    7400282: canape.003|pourtour fenetre .038
+    7400284: canape.003|pourtour fenetre .039
+    7400286: canape.003|pourtour fenetre .040
+    7400288: canape.000|pourtour fenetre .033
+    7400290: canape.000|pourtour fenetre .034
+    7400292: canape.000|pourtour fenetre .035
+    7400294: canape.000|pourtour fenetre .036
+    7400296: canape.000|pourtour fenetre .037
+    7400298: canape.000|pourtour fenetre .038
+    7400300: canape.000|pourtour fenetre .039
+    7400302: canape.000|pourtour fenetre .040
+    7400304: canape.002|pourtour fenetre .033
+    7400306: canape.002|pourtour fenetre .034
+    7400308: canape.002|pourtour fenetre .035
+    7400310: canape.002|pourtour fenetre .036
+    7400312: canape.002|pourtour fenetre .037
+    7400314: canape.002|pourtour fenetre .038
+    7400316: canape.002|pourtour fenetre .039
+    7400318: canape.002|pourtour fenetre .040
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
