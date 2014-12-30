@@ -46,7 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\CameraMovementRooms.cs" />
+     <Compile Include="Assets\Scripts\CharControlMove.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\Movement2.cs" />
      <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
      <None Include="Assets\WomanKnightAnimationPack\Documents\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
