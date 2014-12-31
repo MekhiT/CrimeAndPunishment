@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 4cf378833ca6844f68c7670f3a45d6a5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: addome
+    100002: Armature
+    100004: avambraccio.L
+    100006: avambraccio.R
+    100008: bacino
+    100010: bicipite.L
+    100012: bicipite.R
+    100014: Camera
+    100016: capelli1
+    100018: colloGiu
+    100020: colloSu
+    100022: dita1.L
+    100024: dita1.R
+    100026: dita2.L
+    100028: dita2.R
+    100030: dita3.L
+    100032: dita3.R
+    100034: Empty
+    100036: Empty.001
+    100038: Empty.003
+    100040: gamba.L
+    100042: gamba.R
+    100044: gonna.L
+    100046: gonna.R
+    100048: Grid
+    100050: Lamp
+    100052: Lamp.001
+    100054: Lamp.002
+    100056: Lamp.003
+    100058: Lamp.004
+    100060: Lamp.005
+    100062: Lamp.006
+    100064: mano.L
+    100066: mano.R
+    100068: piede.L
+    100070: piede.R
+    100072: PiedeDita.L
+    100074: PiedeDita.R
+    100076: Plane
+    100078: Plane.001
+    100080: Plane.003
+    100082: pollice1.L
+    100084: pollice1.R
+    100086: pollice2.L
+    100088: pollice2.R
+    100090: polpaccio.L
+    100092: polpaccio.R
+    100094: schiena
+    100096: spalla.L
+    100098: spalla.R
+    100100: suite
+    100102: tallone.L
+    100104: tallone.R
+    100106: testa
+    100108: //RootNode
+    400000: addome
+    400002: Armature
+    400004: avambraccio.L
+    400006: avambraccio.R
+    400008: bacino
+    400010: bicipite.L
+    400012: bicipite.R
+    400014: Camera
+    400016: capelli1
+    400018: colloGiu
+    400020: colloSu
+    400022: dita1.L
+    400024: dita1.R
+    400026: dita2.L
+    400028: dita2.R
+    400030: dita3.L
+    400032: dita3.R
+    400034: Empty
+    400036: Empty.001
+    400038: Empty.003
+    400040: gamba.L
+    400042: gamba.R
+    400044: gonna.L
+    400046: gonna.R
+    400048: Grid
+    400050: Lamp
+    400052: Lamp.001
+    400054: Lamp.002
+    400056: Lamp.003
+    400058: Lamp.004
+    400060: Lamp.005
+    400062: Lamp.006
+    400064: mano.L
+    400066: mano.R
+    400068: piede.L
+    400070: piede.R
+    400072: PiedeDita.L
+    400074: PiedeDita.R
+    400076: Plane
+    400078: Plane.001
+    400080: Plane.003
+    400082: pollice1.L
+    400084: pollice1.R
+    400086: pollice2.L
+    400088: pollice2.R
+    400090: polpaccio.L
+    400092: polpaccio.R
+    400094: schiena
+    400096: spalla.L
+    400098: spalla.R
+    400100: suite
+    400102: tallone.L
+    400104: tallone.R
+    400106: testa
+    400108: //RootNode
+    2300000: Grid
+    2300002: Plane
+    2300004: Plane.003
+    3300000: Grid
+    3300002: Plane
+    3300004: Plane.003
+    4300000: Plane.001
+    4300002: suite
+    4300004: capelli1
+    4300006: Plane.003
+    4300008: Grid
+    7400000: Armature|Action
+    7400002: Armature|Action.001
+    7400004: Plane.001|Action
+    7400006: Plane.001|Action.001
+    7400008: suite|Action
+    7400010: suite|Action.001
+    7400012: capelli1|Action
+    7400014: capelli1|Action.001
+    7400016: Empty.003|Action
+    7400018: Empty.003|Action.001
+    7400020: Empty.001|Action
+    7400022: Empty.001|Action.001
+    7400024: Lamp.006|Action
+    7400026: Lamp.006|Action.001
+    7400028: Lamp.005|Action
+    7400030: Lamp.005|Action.001
+    7400032: Lamp.004|Action
+    7400034: Lamp.004|Action.001
+    7400036: Lamp.003|Action
+    7400038: Lamp.003|Action.001
+    7400040: Lamp.002|Action
+    7400042: Lamp.002|Action.001
+    7400044: Plane.003|Action
+    7400046: Plane.003|Action.001
+    7400048: Lamp.001|Action
+    7400050: Lamp.001|Action.001
+    7400052: Lamp|Action
+    7400054: Lamp|Action.001
+    7400056: Empty|Action
+    7400058: Empty|Action.001
+    7400060: Camera|Action
+    7400062: Camera|Action.001
+    7400064: Grid|Action
+    7400066: Grid|Action.001
+    7400068: Plane|Action
+    7400070: Plane|Action.001
+    9500000: //RootNode
+    13700000: capelli1
+    13700002: Plane.001
+    13700004: suite
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Armature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamba.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamba.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: polpaccio.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: polpaccio.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PiedeDita.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PiedeDita.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: addome
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: schiena
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: colloGiu
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: colloSu
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spalla.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spalla.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bicipite.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bicipite.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: avambraccio.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: avambraccio.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mano.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mano.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: testa
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dita1.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dita2.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pollice1.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pollice2.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dita1.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dita2.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pollice1.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pollice2.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: undead(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: .142723531, z: -.00274868309}
+      rotation: {x: 6.12323426e-17, y: 1, z: 6.12323426e-17, w: -6.12323426e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bacino
+      position: {x: -4.56157985e-12, y: .000486916135, z: .00357072055}
+      rotation: {x: -.0956174582, y: -1.16262078e-11, z: -1.21034086e-10, w: .995418191}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: addome
+      position: {x: 5.27519443e-19, y: .0187578574, z: 1.08989441e-11}
+      rotation: {x: .0956174582, y: 1.16262043e-11, z: 1.21034099e-10, w: .995418191}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: schiena
+      position: {x: 6.70988508e-26, y: .023263732, z: 0}
+      rotation: {x: -.101271898, y: -3.3259482e-11, z: -3.2673042e-10, w: .994858801}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: colloGiu
+      position: {x: 7.63278325e-19, y: .0409449935, z: 0}
+      rotation: {x: .334457517, y: .00216100249, z: -.0060890005, w: .942388654}
+      scale: {x: 1, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: colloSu
+      position: {x: -7.68341085e-11, y: .0130800838, z: -2.08891726e-09}
+      rotation: {x: -.175422296, y: -.00388073712, z: -.00905355345, w: .984444022}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: testa
+      position: {x: -1.62981448e-10, y: .00599646196, z: -4.51354287e-10}
+      rotation: {x: .0316524059, y: .000285908813, z: .0222701747, w: .99925077}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: spalla.R
+      position: {x: -.00316864951, y: .0378836803, z: .00120051682}
+      rotation: {x: .232347041, y: -.208745092, z: .634878039, w: .706661344}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: bicipite.R
+      position: {x: 3.7252903e-09, y: .0252414569, z: -1.19209287e-09}
+      rotation: {x: -.00668006251, y: .224215835, z: .0750896782, w: .971619427}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: avambraccio.R
+      position: {x: -2.37487252e-10, y: .04069281, z: -1.91276966e-10}
+      rotation: {x: .0358777307, y: .241405219, z: -.0166560654, w: .969617963}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mano.R
+      position: {x: -1.19209287e-09, y: .0369840525, z: -3.28318484e-09}
+      rotation: {x: .0420088693, y: .993662298, z: .0760401413, w: -.0713328049}
+      scale: {x: .999999881, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: dita1.R
+      position: {x: -4.76837148e-09, y: .015594936, z: 5.27418687e-09}
+      rotation: {x: .0842598751, y: .969781041, z: .16421555, w: .159556955}
+      scale: {x: .999999881, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: dita2.R
+      position: {x: -5.96046412e-09, y: .00784899015, z: -1.76351017e-10}
+      rotation: {x: -.0358017199, y: -.103232376, z: -.0019574156, w: .994010866}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: dita3.R
+      position: {x: -5.96046434e-10, y: .00704901898, z: 1.97649563e-09}
+      rotation: {x: .137080729, y: -.261601448, z: .949296176, w: -.107751615}
+      scale: {x: .999999762, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: pollice1.R
+      position: {x: .00527305249, y: .00600409508, z: -.00124884851}
+      rotation: {x: .0994312093, y: -.0743678138, z: -.104783043, w: .986713409}
+      scale: {x: .999999881, y: .999999702, z: .999999881}
+      transformModified: 1
+    - name: pollice2.R
+      position: {x: -2.38418574e-09, y: .00962336361, z: -1.73806824e-09}
+      rotation: {x: -.115136534, y: .979526222, z: .146504819, w: .0762124583}
+      scale: {x: .999999762, y: .999999642, z: .999999762}
+      transformModified: 1
+    - name: spalla.L
+      position: {x: .00316864951, y: .0378836803, z: .00120051682}
+      rotation: {x: .232347056, y: .208745047, z: -.634878039, w: .706661344}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bicipite.L
+      position: {x: -5.67558382e-05, y: .0247126687, z: -5.04658759e-10}
+      rotation: {x: -.00668019708, y: -.224215761, z: -.0750896558, w: .971619427}
+      scale: {x: 1, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: avambraccio.L
+      position: {x: -2.74740147e-10, y: .0406927913, z: 3.5777703e-10}
+      rotation: {x: .0363571681, y: -.233431339, z: .0170083884, w: .971544504}
+      scale: {x: 1, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: mano.L
+      position: {x: -6.55651089e-09, y: .038554728, z: -1.16339827e-09}
+      rotation: {x: -.0364088044, y: .994990826, z: .0674836114, w: .064137347}
+      scale: {x: .999999762, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: dita1.L
+      position: {x: 3.57627861e-09, y: .0162252486, z: 7.2506734e-10}
+      rotation: {x: -.0925178304, y: .976892471, z: .143012181, w: -.129108846}
+      scale: {x: .999999762, y: .999999583, z: .999999881}
+      transformModified: 1
+    - name: dita2.L
+      position: {x: 5.96046412e-09, y: .00707545131, z: 1.04241282e-09}
+      rotation: {x: -.0347531065, y: .116036355, z: .00228792382, w: .992634237}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: dita3.L
+      position: {x: 5.43892353e-09, y: .00704902504, z: -1.30173017e-09}
+      rotation: {x: -.137080014, y: -.261601746, z: .949296236, w: .107750833}
+      scale: {x: .999999881, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: pollice1.L
+      position: {x: -.0052282773, y: .00595082855, z: -.00163291255}
+      rotation: {x: .0871161893, y: .0610377192, z: .0983513296, w: .989450455}
+      scale: {x: .999999821, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: pollice2.L
+      position: {x: 1.19209287e-09, y: .00962334499, z: -2.18163221e-09}
+      rotation: {x: .115136407, y: .97952652, z: .146503001, w: -.0762120709}
+      scale: {x: .999999881, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: gamba.R
+      position: {x: -.007673549, y: .00741642946, z: -.00274868542}
+      rotation: {x: .998925865, y: -.0218999684, z: .000895246863, w: .0408267863}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: polpaccio.R
+      position: {x: 4.07453619e-11, y: .067978926, z: -1.09268677e-10}
+      rotation: {x: .10588149, y: .000450462656, z: -.047809545, w: .993228674}
+      scale: {x: .99999994, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: piede.R
+      position: {x: 1.09430398e-09, y: .0551675446, z: 8.42361181e-10}
+      rotation: {x: -.558928967, y: .0116108563, z: .0605773702, w: .826918364}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: PiedeDita.R
+      position: {x: 1.04308129e-09, y: .0215355717, z: -9.53674295e-09}
+      rotation: {x: -.192604244, y: .0398335829, z: .107677214, w: .974537075}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: tallone.R
+      position: {x: .000798434601, y: -.000135743321, z: .00235403143}
+      rotation: {x: .729104757, y: .0442874134, z: -.10514193, w: .674825966}
+      scale: {x: .99999994, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: gamba.L
+      position: {x: .007673549, y: .00741642946, z: -.00274868542}
+      rotation: {x: .998925805, y: .0219006687, z: -.000895051926, w: .0408270173}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: polpaccio.L
+      position: {x: 4.67989592e-10, y: .0679788888, z: 4.76809703e-11}
+      rotation: {x: .105888247, y: -.000451693282, z: .0478114225, w: .993227839}
+      scale: {x: 1, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: piede.L
+      position: {x: 2.84053392e-10, y: .0551676415, z: 3.34465539e-10}
+      rotation: {x: -.558929205, y: -.0116085932, z: -.0605770908, w: .826918244}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PiedeDita.L
+      position: {x: 1.19209287e-09, y: .0215355754, z: 3.94486799e-09}
+      rotation: {x: -.192603782, y: -.0398327857, z: -.107677758, w: .974537134}
+      scale: {x: .99999994, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: tallone.L
+      position: {x: -.000798452995, y: -.000135748676, z: .00235394668}
+      rotation: {x: .729105711, y: -.0442883968, z: .105140589, w: .674825072}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: gonna.L
+      position: {x: .00767354481, y: .0109462375, z: -.00476571172}
+      rotation: {x: -.826700687, y: 0, z: -0, w: .562641978}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gonna.R
+      position: {x: -.00767355226, y: .0109462375, z: -.00476571172}
+      rotation: {x: -.828067243, y: 0, z: -0, w: .560628772}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: .170620158, y: -.10115654, z: -.724730194}
+      rotation: {x: .0132276192, y: -.757112622, z: -.0114093963, w: .65305078}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: capelli1
+      position: {x: .0368509106, y: -.0710500404, z: .0430198312}
+      rotation: {x: 2.09858952e-14, y: 1.33158053e-07, z: 1, w: 2.66316107e-07}
+      scale: {x: -1, y: -.99999994, z: -1}
+      transformModified: 1
+    - name: Empty
+      position: {x: .0461985469, y: -.130783245, z: .113710426}
+      rotation: {x: 1.54543134e-08, y: .707106829, z: -1.54543134e-08, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty.001
+      position: {x: .0239667594, y: -.102169454, z: .0823371485}
+      rotation: {x: 1.9368624e-08, y: .463293582, z: -1.01256026e-08, w: .886204839}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty.003
+      position: {x: .0361822136, y: -.146069378, z: .0484668538}
+      rotation: {x: 1.72286452e-08, y: .615302622, z: -1.34478633e-08, w: .788290977}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Grid
+      position: {x: -.0159650575, y: -.00410948833, z: .0177700762}
+      rotation: {x: 1.96055584e-14, y: 1, z: -2.66316107e-07, w: 7.3847545e-08}
+      scale: {x: 2.05906844, y: 2.05906844, z: 2.05906844}
+      transformModified: 1
+    - name: Lamp
+      position: {x: -.566559494, y: .238597095, z: .014509365}
+      rotation: {x: -1.26706547e-08, y: -6.98025682e-09, z: .875883043, w: -.482523501}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lamp.001
+      position: {x: -.174168691, y: .233617261, z: -.63277328}
+      rotation: {x: -.518636048, y: .285716355, z: .705824196, w: -.388838023}
+      scale: {x: 1.00000012, y: 1, z: .999999881}
+      transformModified: 1
+    - name: Lamp.002
+      position: {x: -.15176791, y: .332066834, z: -1.5189445}
+      rotation: {x: -4.87814587e-18, y: .691121399, z: .722738743, w: 8.93873935e-17}
+      scale: {x: 3.46172094, y: 3.46172094, z: 3.46172118}
+      transformModified: 1
+    - name: Lamp.003
+      position: {x: .713885188, y: .327882767, z: .191937461}
+      rotation: {x: -4.32977997e-17, y: .707106709, z: .707106829, w: -4.32978063e-17}
+      scale: {x: 3.46172094, y: 3.46172118, z: 3.46172118}
+      transformModified: 1
+    - name: Lamp.004
+      position: {x: .0818552002, y: -.558610082, z: .342177838}
+      rotation: {x: -4.32977997e-17, y: .707106709, z: .707106829, w: -4.32978063e-17}
+      scale: {x: 3.46172094, y: 3.46172118, z: 3.46172118}
+      transformModified: 1
+    - name: Lamp.005
+      position: {x: .261667103, y: -.292404145, z: .217275232}
+      rotation: {x: -4.32977997e-17, y: .707106709, z: .707106829, w: -4.32978063e-17}
+      scale: {x: 3.46172094, y: 3.46172118, z: 3.46172118}
+      transformModified: 1
+    - name: Lamp.006
+      position: {x: .116747729, y: -.128596514, z: .360888958}
+      rotation: {x: -.659377277, y: .0329791456, z: .0375195183, w: .750150859}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Plane
+      position: {x: -.0397117138, y: -.0738534182, z: .00856381003}
+      rotation: {x: 6.17027371e-17, y: .999970257, z: .00771190552, w: -6.0758302e-17}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: Plane.001
+      position: {x: .0367855094, y: -.0718437582, z: .0430255681}
+      rotation: {x: 2.09858952e-14, y: 1.33158053e-07, z: 1, w: 2.66316107e-07}
+      scale: {x: -1, y: -.99999994, z: -1}
+      transformModified: 1
+    - name: Plane.003
+      position: {x: -.174801633, y: .416381717, z: -3.17491388}
+      rotation: {x: -6.83589404e-17, y: 1.33158053e-07, z: 1, w: 6.12323492e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: suite
+      position: {x: .036541447, y: -.071271494, z: .042968981}
+      rotation: {x: 2.09858952e-14, y: 1.33158053e-07, z: 1, w: 2.66316107e-07}
+      scale: {x: -1.09376836, y: -.99999994, z: -1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
