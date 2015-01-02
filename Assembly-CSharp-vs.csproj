@@ -46,16 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Axe.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\CameraMovementRooms.cs" />
      <Compile Include="Assets\Scripts\CharControlMove.cs" />
+     <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\JacketFollow.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Movement2.cs" />
      <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
+     <None Include="Assets\Standard Assets\shader\DifSpecTransp.shader" />
      <None Include="Assets\WomanKnightAnimationPack\Documents\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Shaders\DifSpecTransp.shader" />
+     <None Include="Assets\DeathAnims\Boxing_Free_Unity_Info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/matthewha/CrimeAndPunishment/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
