@@ -53,9 +53,9 @@ public class CharControlMove : MonoBehaviour {
 			
 				StartCoroutine (loading ());
 				}	
-	  else if (other.gameObject.tag == "Door") {
+	  else if (Input.GetButton("e") == true) {
 				
-			door.rigidbody.AddForce (-transform.forward * 100f, ForceMode.Force);
+			door.rigidbody.AddForce (-transform.forward, ForceMode.Force);
 			} 
 		else if (other.gameObject.tag == "Axe") {
 			pickupAxe = true;
