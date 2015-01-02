@@ -9,7 +9,9 @@ public class CharControlMove : MonoBehaviour {
 	public float v;
 	public Vector3 movePos;
 	public Vector3 rotation;
+	public GameObject door;
 
+	public bool pickupAxe;
 	CharacterController cc;
 	Animator anim;
 	// Use this for initialization
@@ -17,6 +19,8 @@ public class CharControlMove : MonoBehaviour {
 
 		cc = GetComponent<CharacterController> ();
 		anim = GetComponent<Animator> ();
+
+		door = GameObject.FindWithTag ("Door");
 
 	}
 	
@@ -42,6 +46,31 @@ public class CharControlMove : MonoBehaviour {
 		anim.SetBool ("IsWalking", walking);
 
 	}
+
+	void OnTriggerEnter(Collider other){
+		
+		if (other.gameObject.tag == "Leave") {
+			
+				StartCoroutine (loading ());
+				}	
+	  else if (other.gameObject.tag == "Door") {
+				
+			door.rigidbody.AddForce (-transform.forward * 100f, ForceMode.Force);
+			} 
+		else if (other.gameObject.tag == "Axe") {
+			pickupAxe = true;
+
+		}
+		
+	}
+	
+	IEnumerator loading(){
+		
+		yield return new WaitForSeconds(2.0f);
+		Application.LoadLevel(Application.loadedLevel +1);
+	}
+
+
 
 
 }
