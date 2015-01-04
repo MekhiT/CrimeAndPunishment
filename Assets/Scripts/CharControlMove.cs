@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 
@@ -10,6 +11,9 @@ public class CharControlMove : MonoBehaviour {
 	public Vector3 movePos;
 	public Vector3 rotation;
 	public GameObject door;
+
+	public Text uiText;
+	TextFlow text;
 	
 	public bool pickupAxe;
 	CharacterController cc;
@@ -19,24 +23,26 @@ public class CharControlMove : MonoBehaviour {
 		
 		cc = GetComponent<CharacterController> ();
 		anim = GetComponent<Animator> ();
-		
+
+		text = uiText.GetComponent<TextFlow> ();
 		door = GameObject.FindWithTag ("Door");
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (text.isControllable) {
+						v = Input.GetAxis ("Vertical");
+						movePos = v * transform.TransformDirection (Vector3.forward) * MoveSpeed;
+						animate (v);
+						//transform.Rotate (new Vector3(0, Input.GetAxis ("Horizontal") * RotationSpeed * Time.deltaTime, 0));
+						rotation = new Vector3 (0, Input.GetAxis ("Horizontal") * RotationSpeed * Time.deltaTime, 0);
+						transform.Rotate (rotation);
+						cc.Move (movePos * Time.deltaTime);
+						cc.SimpleMove (Physics.gravity);
 		
-		v = Input.GetAxis ("Vertical");
-		movePos = v * transform.TransformDirection (Vector3.forward) * MoveSpeed;
-		animate (v);
-		//transform.Rotate (new Vector3(0, Input.GetAxis ("Horizontal") * RotationSpeed * Time.deltaTime, 0));
-		rotation = new Vector3 (0, Input.GetAxis ("Horizontal") * RotationSpeed * Time.deltaTime, 0);
-		transform.Rotate (rotation);
-		cc.Move (movePos*Time.deltaTime);
-		cc.SimpleMove (Physics.gravity);
-		
-		
+				}
 	}
 	
 	void animate (float ifInput){
@@ -66,7 +72,7 @@ public class CharControlMove : MonoBehaviour {
 	
 	IEnumerator loading(){
 		
-		yield return new WaitForSeconds(2.0f);
+		yield return new WaitForSeconds(1.0f);
 		Application.LoadLevel(Application.loadedLevel +1);
 	}
 	

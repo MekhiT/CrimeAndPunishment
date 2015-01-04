@@ -1,14 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharControlMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharControlMoveAlyonaApartment.cs">
     <Files>
-      <File FileName="../Desktop/Unity Projects/Roller Ball/Assets/_Scripts/PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Movement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/JacketFollow.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Axe.cs" Line="1" Column="1" />
-      <File FileName="../Desktop/Unity Projects/ColorChange/Assets/_Scripts/ColorChange.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Door.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CharControlMove.cs" Line="77" Column="1" />
+      <File FileName="Assets/Scripts/CharControlMoveAlyonaApartment.cs" Line="64" Column="4" />
+      <File FileName="Assets/Scripts/AxeAlyonaApartment.cs" Line="9" Column="20" />
+      <File FileName="Assets/Scripts/Axe.cs" Line="5" Column="2" />
+      <File FileName="Assets/Scripts/HatFollowElsewhere.cs" Line="4" Column="50" />
+      <File FileName="Assets/Scripts/TextFlowOutsideAlyonaApartment.cs" Line="7" Column="17" />
+      <File FileName="Assets/Scripts/NarratorText.cs" Line="36" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,7 +7,7 @@ public class Axe : MonoBehaviour {
 
 	Vector3 rotationOffSet;
 	Vector3 targetPos;
-	CharControlMove playerMoveScript;
+	CharControlMoveFirstFloor playerMoveScript;
 	GameObject player;
 
 
@@ -18,7 +18,7 @@ public class Axe : MonoBehaviour {
 		hand = GameObject.FindWithTag ("Hand").transform;
 		rotationOffSet = new Vector3 (0, 260, 0);
 		player = GameObject.FindWithTag ("Rask");
-		playerMoveScript = player.GetComponent<CharControlMove> ();
+		playerMoveScript = player.GetComponent<CharControlMoveFirstFloor> ();
 	}
 	
 	// Update is called once per frame
