@@ -8,7 +8,7 @@ public class AlyonaScript : MonoBehaviour {
 	float timer;
 	Animator anim;
 	public GameObject blood;
-
+	public AudioClip alyonaGitzFucked;
 	public bool alyonaDead;
 
 	// Use this for initialization
@@ -33,9 +33,14 @@ public class AlyonaScript : MonoBehaviour {
 
 
 			blood.SetActive(true);
-			
-			
 		}
+		if(anim.IsInTransition(0) && !audio.isPlaying){
+		audio.clip = alyonaGitzFucked;
+		audio.Play();
+		}
+			
+			
+		
 		
 	}
 }

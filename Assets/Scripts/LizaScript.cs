@@ -9,7 +9,7 @@ public class LizaScript : MonoBehaviour {
 	Animator anim;
 	float secondTimer;
 	public bool islizaDead;
-
+	public AudioClip elizaGitzFucked;
 	Vector3 targetPos;
 
 	// Use this for initialization
@@ -35,7 +35,12 @@ public class LizaScript : MonoBehaviour {
 			//if(transform.position == targetPos){
 
 				//anim.SetBool ("LizaWalk",false);
-
+		 if(anim.IsInTransition(0) && !audio.isPlaying)
+        {
+            // ... play the door swish audio clip.
+            audio.clip = elizaGitzFucked;
+            audio.Play();
+        }		
 			
 
 
