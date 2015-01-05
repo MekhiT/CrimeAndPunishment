@@ -13,6 +13,7 @@ public class CharControlMoveFirstFloor : MonoBehaviour {
 	public GameObject door;
 	public float time;
 
+	public GameObject liza;
 	
 	public bool pickupAxe;
 	public bool pickupHat;

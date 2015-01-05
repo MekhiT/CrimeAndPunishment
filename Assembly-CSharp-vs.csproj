@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Animations\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\AlyonaScript.cs" />
      <Compile Include="Assets\Scripts\Axe.cs" />
      <Compile Include="Assets\Scripts\AxeAlyonaApartment.cs" />
      <Compile Include="Assets\Scripts\CameraMovement-Don&apos;tUse.cs" />
@@ -57,8 +59,10 @@
      <Compile Include="Assets\Scripts\HatFollowElsewhere.cs" />
      <Compile Include="Assets\Scripts\HatFollowFirstFloor.cs" />
      <Compile Include="Assets\Scripts\JacketFollow.cs" />
+     <Compile Include="Assets\Scripts\LizaScript.cs" />
      <Compile Include="Assets\Scripts\MusicScript.cs" />
      <Compile Include="Assets\Scripts\NarratorText.cs" />
+     <Compile Include="Assets\Scripts\NextCredits.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\TextFlow.cs" />
      <Compile Include="Assets\Scripts\TextFlowOutside1.cs" />
@@ -66,12 +70,10 @@
      <Compile Include="Assets\Scripts\TextFlowOutside3.cs" />
      <Compile Include="Assets\Scripts\TextFlowOutsideAlyonaApartment.cs" />
      <Compile Include="Assets\Scripts\TextOutside4OrAlyonaExt.cs" />
-     <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
      <None Include="Assets\Standard Assets\shader\DifSpecTransp.shader" />
-     <None Include="Assets\WomanKnightAnimationPack\Documents\Readme.txt" />
+     <None Include="Assets\Animations\WomanKnightAnimationPack\Documents\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Shaders\DifSpecTransp.shader" />
-     <None Include="Assets\DeathAnims\Boxing_Free_Unity_Info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/matthewha/CrimeAndPunishment/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

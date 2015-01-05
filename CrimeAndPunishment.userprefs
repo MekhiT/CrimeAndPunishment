@@ -1,13 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharControlMoveAlyonaApartment.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayButton.cs">
     <Files>
-      <File FileName="Assets/Scripts/CharControlMoveAlyonaApartment.cs" Line="64" Column="4" />
-      <File FileName="Assets/Scripts/AxeAlyonaApartment.cs" Line="9" Column="20" />
-      <File FileName="Assets/Scripts/Axe.cs" Line="5" Column="2" />
-      <File FileName="Assets/Scripts/HatFollowElsewhere.cs" Line="4" Column="50" />
-      <File FileName="Assets/Scripts/TextFlowOutsideAlyonaApartment.cs" Line="7" Column="17" />
-      <File FileName="Assets/Scripts/NarratorText.cs" Line="36" Column="59" />
+      <File FileName="Assets/Scripts/PlayButton.cs" Line="24" Column="41" />
+      <File FileName="Assets/Scripts/TextFlowOutsideAlyonaApartment.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NarratorText.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TextOutside4OrAlyonaExt.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AlyonaScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LizaScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CharControlMoveAlyonaApartment.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NextCredits.cs" Line="14" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

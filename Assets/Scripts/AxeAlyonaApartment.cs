@@ -14,7 +14,8 @@ public class AxeAlyonaApartment : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		
+
+
 		hand = GameObject.FindWithTag ("Hand").transform;
 		rotationOffSet = new Vector3 (0, 260, 0);
 		player = GameObject.FindWithTag ("Rask");
@@ -23,12 +24,13 @@ public class AxeAlyonaApartment : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		if (playerMoveScript.pickupAxe) {
-			targetPos = hand.position;
-			transform.position = targetPos;
-			transform.eulerAngles = hand.eulerAngles + rotationOffSet;
-			
+
+
+			if (playerMoveScript.pickupAxe) {
+				targetPos = hand.position;
+				transform.position = targetPos;
+				transform.eulerAngles = hand.eulerAngles + rotationOffSet;
+
 		}		
 		
 	}

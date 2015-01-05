@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CharControlMoveAlyonaApartment : MonoBehaviour {
 
@@ -11,18 +12,31 @@ public class CharControlMoveAlyonaApartment : MonoBehaviour {
 	public GameObject door;
 	public float time;
 	
-	
+	public GameObject Liza;
+
 	public bool pickupAxe;
 	public bool pickupHat;
 	public bool SwitchCamera;
+	public bool isTreasure;
+
+	public GameObject axe;
 	
 	CharacterController cc;
 	Animator anim;
 
 	public bool handing;
+	public bool holding;
+	public bool startText;
+	public bool killing;
+	public bool killing3;
+
+	public bool ifLiza;
+
+
 
 	public GameObject mainCam;
 	public GameObject lookCam;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -31,6 +45,7 @@ public class CharControlMoveAlyonaApartment : MonoBehaviour {
 		
 		
 		door = GameObject.FindWithTag ("Door");
+		axe.SetActive (false);
 		
 	}
 	
@@ -47,26 +62,46 @@ public class CharControlMoveAlyonaApartment : MonoBehaviour {
 			cc.Move (movePos * Time.deltaTime);
 			cc.SimpleMove (Physics.gravity);
 
-			if(Input.GetKey(KeyCode.E)){
+			handing = Input.GetKeyDown (KeyCode.E);
+			handingItem (handing);
 
-				handing = true;
+			holding = Input.GetKeyDown (KeyCode.R);
+			if(holding){
+
+				axe.SetActive(true);
 			}
 
-			if(handing){
+			killing = Input.GetKeyDown (KeyCode.K);
+			killingHer (killing);
 
-				handingItem();
-				handing = false;
+			//if(Input.GetKeyDown(KeyCode.E)){
+
+				//handing = true;
+			//}
 
 
-			}
+			//if(handing){
+
+				//handingItem();
+				//handing = false;
+
+
+			//}
 
 			
 		}
 	}
 
-	void handingItem(){
+	void killingHer(bool killing2){
 
-		anim.SetBool ("IsHanding", handing);
+		anim.SetBool ("IsKilling", killing2);
+
+		killing3 = killing2;
+	}
+
+	void handingItem(bool handing2){
+
+		anim.SetBool ("IsHanding", handing2);
 
 	
 	}
@@ -87,27 +122,36 @@ public class CharControlMoveAlyonaApartment : MonoBehaviour {
 		
 		if (other.gameObject.tag == "Leave") {
 			
-			StartCoroutine (loading ());
-		} else if (other.gameObject.tag == "Door") {
+						StartCoroutine (loading ());
+				} else if (other.gameObject.tag == "Door") {
 			
-			door.rigidbody.AddForce (-transform.forward * 100f, ForceMode.Force);
-		} else if (other.gameObject.tag == "Axe") {
-			pickupAxe = true;
+						door.rigidbody.AddForce (-transform.forward * 100f, ForceMode.Force);
+				} else if (other.gameObject.tag == "Axe") {
+						pickupAxe = true;
 			
-		} else if (other.gameObject.tag == "Hat") {
-			//animateHat();
+				} else if (other.gameObject.tag == "Hat") {
+						//animateHat();
 			
-			pickupHat = true;
-		} else if (other.gameObject.tag == "Switch Camera") {
+						pickupHat = true;
+				} else if (other.gameObject.tag == "Switch Camera") {
 			
-			SwitchCamera = true;
+						SwitchCamera = true;
 			
-			mainCam.camera.active = false;
-			lookCam.camera.active = true;
+						mainCam.camera.active = false;
+						lookCam.camera.active = true;
 			
 			
-		}
-		
+				} else if (other.gameObject.tag == "Dialogue") {
+						
+						startText = true;
+				} else if (other.gameObject.tag == "Treasure") {
+						isTreasure = true;
+						mainCam.camera.active = false;
+						lookCam.camera.active = true;
+						Liza.SetActive (true);
+						ifLiza = true;
+				} 
+
 	}
 	
 	IEnumerator loading(){

@@ -13,13 +13,13 @@ public class JacketFollow : MonoBehaviour {
 
 
 	GameObject player;
-	CharControlMove playerMove;
+	CharControlMoveAlyonaApartment playerMove;
 
 
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindWithTag ("Rask");
-		playerMove = player.GetComponent<CharControlMove> ();
+		playerMove = player.GetComponent<CharControlMoveAlyonaApartment> ();
 
 		playerTrans = GameObject.FindWithTag ("Rask").transform;
 		JacketOffset = transform.position - playerTrans.position;
