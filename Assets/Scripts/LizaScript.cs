@@ -11,15 +11,17 @@ public class LizaScript : MonoBehaviour {
 	public bool islizaDead;
 	public AudioClip elizaGitzFucked;
 	Vector3 targetPos;
-
+	GameObject debusee_music;
+	public GameObject gangsterMusic;
+	
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindWithTag ("Rask");
 		playerMove = player.GetComponent<CharControlMoveAlyonaApartment> ();
 		anim = GetComponent<Animator> ();
-		
+		debusee_music = GameObject.FindWithTag("Music");
 		anim.SetBool("LizaDead", false);
-
+		DontDestroyOnLoad(gangsterMusic);
 	
 	}
 	
@@ -46,7 +48,8 @@ public class LizaScript : MonoBehaviour {
 
 		if (playerMove.killing3) {
 			timer += Time.deltaTime;
-			
+			debusee_music.SetActive(false);
+			gangsterMusic.SetActive(true);
 			anim.SetBool("LizaDead", true);
 			islizaDead = true;
 			

@@ -26,7 +26,7 @@ public class NarratorText : MonoBehaviour {
 		nText[0] = "Narrator: On a hot, July St. Petersburg Evening, Rodion Romanovitch Raskolnikov woke, frantic, and nervous.";
 		rText[0] = "Why did I sleep so late? Fate does not wait. It is fate, fate and nothing else. By mere coincidence, at the Hay Market…. it must be, I am meant to...She’ll be alone, Lizaveta will be gone, all alone...alone.";
 		rText[1] = "Composure is important, peace...I have my coat, my “pledge”, my noose for the ax, why did I decide on ax….ax? I haven’t got it, agh Nastasia is in the kitchen! Why? It’ll be downstairs, the hat too. Ah...stupid miscalculation, foolish blunder, must get on….";
-		rText[2] = "Why have am I wearing this hat? I should’ve left it, bought a new one, agh...is this right? Will I? Have I the strength? Must hurry, its already rung seven. The louse’s home is down this way, cross two bridges.";
+		rText[2] = "Why am I wearing this hat? I should’ve left it, bought a new one, agh...is this right? Will I? Have I the strength? Must hurry, its already rung seven. The louse’s home is down this way, cross two bridges.";
 		rText[3] = "This suffocating, dusty, urban sprawl of St. Petersuburg is asphyxiating my individuality...";
 		rText[4] = "It has occured to me that these houses appear similiar. It is as if they were duplicated over and over again.";
 		rText[5] = "A wise man once said ““The movements which work revolutions in the world are born out of the dreams and visions in a peasant's heart on the hillside.";
@@ -35,7 +35,7 @@ public class NarratorText : MonoBehaviour {
 		rText[8] = "It could be said that libertarianism holds that the raison d’etre of the observer is social comment, but only if the premise of semanticist theory is valid; otherwise, Lyotard’s model of libertarianism is one of “Foucaultist power relations”, and hence a legal fiction. Lyotard suggests the use of cultural postcapitalist theory to challenge the status quo.";
 		rText[9] = "My favorite color is abyss.";
 		rText[10] = "I can seize it...the power is there for my taking. Am I pale? Will it give it away? Alyona is distrustful, she’ll know...she’ll know!";
-		rText[11] = "Good evening, I’ve brought you…a pledge, I am Raskolnikov, formerly a student, you remember me...I have something...to give you. Please, you know me, I am in a hurry, please take a look, a silver cigarette case…";
+		rText[11] = "I’ve brought you…a pledge, I am Raskolnikov, formerly a student, you remember me...I have something...to give you. Please, you know me, I am in a hurry, please take a look, a silver cigarette case…";
 		rText[12] = " ";
 		rText[13] = "It is times like these that I look to my favorite greek myth, about Νάρκισσος, or Narkissos...or Narcissus.";
 		rText [14] = "Why does that man have the same jacket as me? Why is he the only man in the entire city? Why are the dogs immobile?";
@@ -51,7 +51,7 @@ public class NarratorText : MonoBehaviour {
 		aText [0] = "Alyona: You can't come in here, this is my home, LEAVE!";
 		aText[1] = "Agh, why has he tied it so? It's so hard to open...";
 
-		lText[0] = " Lizaveta: (Blood-Curdling Screams, followed by a shocked, fearful silence";
+		lText[0] = " Lizaveta: (Blood-Curdling Screams) followed by a shocked, fearful silence";
 
 	}
 	
